@@ -1,0 +1,26 @@
+ESCAPA DEL BOSQUE DE NIGHTMARE - subir a Google Play
+
+1) SUBIR A INTERNET (gratis, GitHub Pages)
+   - github.com > New repository (publico), por ejemplo: bosque-nightmare
+   - Add file > Upload files: sube TODO el contenido de esta carpeta
+   - Settings > Pages > Branch: main, carpeta /(root) > Save
+   - Tu juego queda en https://TU-USUARIO.github.io/bosque-nightmare/
+   - Abrelo en el celular: debe funcionar (y ofrecer "Instalar app").
+
+2) CONVERTIR A APP DE ANDROID
+   - Entra a pwabuilder.com, pega la URL y toca Start.
+   - Package for stores > Android > Google Play > Generate.
+   - Descarga el ZIP: trae el archivo .aab y tu llave de firma.
+   - GUARDA LA LLAVE (signing key) y su contrasena. Sin ella no podras actualizar la app.
+
+3) GOOGLE PLAY CONSOLE (play.google.com/console)
+   - Crea cuenta de desarrollador (pago unico de 25 USD + verificar identidad).
+   - Crear app > sube el .aab a una prueba cerrada.
+   - Ficha de la tienda: nombre, descripcion, icono 512 (icon-512.png), capturas de pantalla
+     del juego y grafico de funciones de 1024x500.
+   - Clasificacion de contenido: responde que tiene violencia, sangre y terror.
+   - Politica de privacidad: pide una URL. El juego no recopila datos; una pagina simple
+     que lo diga sirve (puede ser otra pagina de GitHub Pages).
+   - Seguridad de los datos: marca que no recopilas ni compartes datos.
+   - Cuentas personales nuevas: prueba cerrada con 12 testers durante 14 dias antes de
+     poder pedir acceso a produccion.
